@@ -1,8 +1,10 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'adamant'
 
-dependencies {
-	'es_extended'
-}
+game 'gta5'
+
+description 'ESX_Tree'
+
+version '1.0.0'
 
 client_scripts { 
   '@mysql-async/lib/MySQL.lua',
@@ -11,4 +13,8 @@ client_scripts {
 
 server_scripts { 
   'server.lua',
+}
+
+dependencies {
+	'es_extended'
 }
